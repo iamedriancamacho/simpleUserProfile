@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="UserProfile.css" />
+    <title>User Profile</title>
+  </head>
+
+  <body>
+    <h1>User Profile</h1>
+    <div class="contents">
+      <div class="profile">
+        <div class="profile-border">
+          <div class="profile-1">
+            <p>FirstName</p>
+            <p>LastName</p>
+            <p>Age</p>
+            <p>Motto</p>
+            <p>Picture</p>
+            <button id="submit" onclick="userSubmit()">Submit</button>
+          </div>
+          <div class="profile-2">
+            <input type="text" class="input" id="inputFN" />
+            <input type="text" class="input" id="inputLN" />
+            <input type="number" class="input" id="inputA" />
+            <input type="text" class="input" id="inputM" />
+            <input type="text" class="input" id="inputP" />
+          </div>
+        </div>
+      </div>
+
+      <div class="display-border">
+        <div class="display">
+          <img src="" id="displayP" />
+          <p id="displayN"></p>
+          <p id="displayA"></p>
+          <p id="displayAN"></p>
+          <span id="displayM"></span>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="UserProfile.js" type="text/javascript"></script>
+</html>

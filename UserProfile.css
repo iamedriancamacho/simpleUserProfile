@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  font-family: century gothic;
+}
+.contents {
+  justify-content: center;
+  display: flex;
+}
+h1 {
+  padding: 5%;
+  text-align: center;
+}
+#submit {
+  border-radius: 30px;
+  font-size: 40px;
+  left: 11.5%;
+  position: absolute;
+  width: 35%;
+}
+.profile-border {
+  font-size: 40px;
+  height: 330px;
+  display: flex;
+}
+
+.profile {
+  padding: 1%;
+  border-radius: 30px;
+  font-size: 40px;
+  width: 40%;
+  background-color: yellow;
+}
+.profile-1 {
+  margin-left: 20px;
+  line-height: 55px;
+  text-align: left;
+}
+.profile-2 {
+  font-size: 40px;
+  margin-left: 10%;
+  text-align: left;
+}
+
+input {
+  border-radius: 20px;
+  font-size: 40px;
+  border-color: yellow;
+  width: 100%;
+}
+
+.display-border {
+  padding: 1%;
+  border-radius: 30px;
+  position: relative;
+  vertical-align: middle;
+  height: 330px;
+  width: 40%;
+  background-color: red;
+}
+img {
+  height: 150px;
+}
+
+.display {
+  font-size: 30px;
+  text-align: center;
+}
+span {
+  font-style: italic;
+}
